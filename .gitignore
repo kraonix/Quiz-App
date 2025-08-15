@@ -1,0 +1,59 @@
+# -----------------------
+# Java build files
+# -----------------------
+bin/
+out/
+build/
+target/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# -----------------------
+# Java libraries
+# -----------------------
+lib/*.jar
+
+# Maven and Gradle dependencies
+.mvn/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar  # Keep Gradle wrapper
+
+# -----------------------
+# IDE settings
+# -----------------------
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# -----------------------
+# OS generated files
+# -----------------------
+.DS_Store
+Thumbs.db
